@@ -1,5 +1,6 @@
 title: Pilvipalvelut web-kehityksessä
 description: Tervetuloa sivustolle!
+remote_theme: daattali/beautiful-jekyll
 
 navbar-links:
   About Me: "aboutme"
