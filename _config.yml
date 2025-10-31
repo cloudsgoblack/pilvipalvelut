@@ -2,6 +2,8 @@ title: Pilvipalvelut web-kehityksessä
 description: Tervetuloa sivustolle!
 remote_theme: daattali/beautiful-jekyll
 
+.page-title { display: none !important; }
+
 plugins:
   - jekyll-remote-theme
   
