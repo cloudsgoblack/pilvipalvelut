@@ -7,8 +7,8 @@ plugins:
 
 navbar-links:
   Etusivu: /
-  Viikko 1: /vko1/
-  Viikko 2: /vko2/
+  Viikko 1: /vko1.html
+  Viikko 2: /vko2.md
 
 navbar-fixed: true
 
