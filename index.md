@@ -1,3 +1,6 @@
+layout: default
+title: Etusivu
+
 GitHub Pages Sivuni, jossa uusi Jekyll teema
 ## Tervetuloa GitHub Pages-sivustolleni!
 Täältä löytyvät tehtäväpalautukset:
