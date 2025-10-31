@@ -17,4 +17,5 @@ avatar: /kuva.jpg
 social-network-links:
   github: cloudsgoblack
 
-custom-css: /jekyll.css
+custom-css:
+  - "/jekyll.css"
