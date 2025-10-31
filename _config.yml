@@ -4,7 +4,10 @@ remote_theme: daattali/beautiful-jekyll
 
 plugins:
   - jekyll-remote-theme
-
+  
+site-css:
+  /jekyll.css
+  
 navbar-links:
   Etusivu: /
   Viikko 1: /vko1.html
@@ -17,5 +20,4 @@ avatar: /kuva.jpg
 social-network-links:
   github: cloudsgoblack
 
-custom-css:
-  - "/jekyll.css"
+
