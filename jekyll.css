@@ -8,4 +8,5 @@ a {
 }
 a:hover {
   color: #4cc7ce;
+  cursor: default;
 }
