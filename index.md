@@ -1,4 +1,4 @@
-### Tervetuloa!
+# Tervetuloa!
 
 Tämä sivusto on toteutettu osana Pilvipalvelut web-kehityksessä -opintojaksoa (DIG001AS3A-3005) syksyllä 2025. :)
 
