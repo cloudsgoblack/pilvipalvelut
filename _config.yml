@@ -9,6 +9,7 @@ plugins:
 
 # VÄRIT
 page-col: "#ffffff"
+page-img: none
 text-col: "#08526d"
 link-col: "#138c9f"
 hover-col: "#41c2c8"
