@@ -16,3 +16,5 @@ author: Ellinoora Tammi
 avatar: /kuva.jpg
 social-network-links:
   github: cloudsgoblack
+
+custom-css: /jekyll.css
