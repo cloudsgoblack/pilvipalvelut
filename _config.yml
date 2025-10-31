@@ -8,7 +8,7 @@ plugins:
   - jekyll-sitemap
 
 # VÄRIT
-page-col: "#fff"
+page-col: "#ffffff"
 text-col: "#08526d"
 link-col: "#138c9f"
 hover-col: "#41c2c8"
