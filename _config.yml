@@ -1,6 +1,6 @@
 title: Jekyll:iä käyttävä sivusto K2025
 description: Tervetuloa sivustolle!
-remote_theme: daattali/beautiful-jekyll@latest
+remote_theme: daattali/beautiful-jekyll
 
 plugins:
   - jekyll-remote-theme
