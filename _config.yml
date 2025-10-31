@@ -4,3 +4,15 @@ remote_theme: daattali/beautiful-jekyll
 
 plugins:
   - jekyll-remote-theme
+
+navbar-links:
+  Etusivu: /
+  Viikko 1: /vko1/
+  Viikko 2: /vko2/
+
+navbar-fixed: true
+
+author: Ellinoora Tammi
+avatar: /kuva.jpg
+social-network-links:
+  github: cloudsgoblack
