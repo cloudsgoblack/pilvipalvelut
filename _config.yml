@@ -32,7 +32,6 @@ navbar-fixed: true
 round-avatar: true
 title-on-all-pages: true
 post_search: true
-edit_page_button: true
 
 author: Ellinoora Tammi
 avatar: /kuva.jpg
