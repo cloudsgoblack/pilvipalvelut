@@ -4,5 +4,6 @@ GitHubin Actions-ominaisuudella voi automatisoida sivustoa ainakin omaan korvaan
 
 Käsittääkseni CI/CD-putkiston rakentamiseen voi käyttää eri työkaluja, ja GitHub Actions on nimenomaan on tällaisen putkiston "suorittaja". Lähteitä kaivellessa tuntui, että olen aivan liian taivaanrannanmaalari ymmärtämään näitä teknisempiä asioita! Työkalun tehtävänä on buildata ja sitten testata web-sovellus automaattisesti - näin toteutuu putkiston CI-vaihe, jatkuva integraatio. CD-vaihe eli jatkuva käyttöönotto voidaan suorittaa toisella työkalulla, joka automatisoi sivuston julkaisun - GitHub Pages lienee tämän mahdollistaja! 
 
-Lähteenä käytetty: [Jekyllrb.com](https://jekyllrb.com/docs/continuous-integration/github-actions/) kurssin luentomateriaali & GitHub. Käytin tekoälyä vääntämään minulle asioita rautalangasta.
-[takaisin etusivulle](index.md)
+Lähteenä käytetty: [Jekyllrb.com](https://jekyllrb.com/docs/continuous-integration/github-actions/), kurssin luentomateriaali & GitHub. Käytin tekoälyä vääntämään minulle asioita rautalangasta.
+
+[Takaisin etusivulle.](index.md)
