@@ -26,6 +26,7 @@ navbar-links:
   Etusivu: /
   "Viikko 1": /vko1.html
   "Viikko 2": /vko2.html
+  "Viikko 3": ./vko3/
 
 navbar-fixed: true
 
