@@ -83,6 +83,8 @@ function LoginForm() {
                 <button type="submit" className="login-button">
                     Kirjaudu sisään
                 </button>
+
+                <p><a href="https://cloudsgoblack.github.io/pilvipalvelut/">Palaa edelliselle sivulle.</a></p>
             </form>
 
             {message && <p className="login-message success">{message}</p>}
