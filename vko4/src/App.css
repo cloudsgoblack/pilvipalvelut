@@ -90,6 +90,21 @@ h1 {
   box-shadow: 0 3px 7px #cbd5e1;
 }
 
+.back-link {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.back-link a {
+  color: #0f766e;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+}
+
 .login-message {
   margin-top: 0.75rem;
   font-size: 0.9rem;

@@ -84,7 +84,13 @@ function LoginForm() {
                     Kirjaudu sisään
                 </button>
 
-                <p><a href="https://cloudsgoblack.github.io/pilvipalvelut/">Palaa edelliselle sivulle.</a></p>
+                <p className="back-link">
+                    <a
+                        href="https://cloudsgoblack.github.io/pilvipalvelut/"
+                    >
+                        ← Palaa edelliselle sivulle
+                    </a>
+                </p>
             </form>
 
             {message && <p className="login-message success">{message}</p>}
