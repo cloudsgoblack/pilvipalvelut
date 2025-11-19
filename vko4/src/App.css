@@ -1,0 +1,160 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+h1 {
+  margin-bottom: 35px;
+  color: #08526d;
+}
+
+.login-container {
+  background: #ffffff;
+  padding: 30px;
+  max-width: 420px;
+  width: 100%;
+}
+
+.login-title {
+  color: #08526d;
+  font-size: 30px;
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.form-label {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.form-input {
+  padding: 0.6rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-input:focus {
+  border-color: #08526d;
+  box-shadow: 0 0 0 2px #cbd5e1;
+}
+
+.login-button {
+  margin-top: 0.5rem;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  background: #41c2c8;
+  color: white;
+  transition: background 0.15s ease, transform 0.05s ease, box-shadow 0.15s ease;
+}
+
+.login-button:hover {
+  background: #b5e4ee;
+  color: #138c9f;
+  box-shadow: 0 0 0 2px #cbd5e1;
+}
+
+.login-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 7px #cbd5e1;
+}
+
+.login-message {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.login-message.success {
+  color: #138c9f;
+}
+
+.login-message.error {
+  color: #b91c1c;
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-input {
+  width: 94%;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 15px;
+  top: 3px;
+  font-size: 24px;
+  color: #475569;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
