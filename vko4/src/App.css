@@ -120,6 +120,20 @@ h1 {
   color: #475569;
 }
 
+.back-link {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.back-link a {
+  color: #0f766e;
+  text-decoration: none;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
