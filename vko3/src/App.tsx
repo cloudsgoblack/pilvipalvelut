@@ -8,7 +8,7 @@ function App() {
 
   const handleClick = useCallback<React.MouseEventHandler<HTMLButtonElement>>((event) => {
     console.log('Toiminto(X, Y): (' + event.pageX + ', ' + event.pageY + ')');
-    setCount((count) => count + 1);
+    setCount((count) => count + 1)
   }, [setCount]);
 
   useEffect(() => {
