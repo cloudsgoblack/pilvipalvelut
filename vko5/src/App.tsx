@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import viteLogo from '.public/vite.svg'
 import type React from 'react';
 import './App.css'
 
