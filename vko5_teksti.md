@@ -2,4 +2,4 @@
 ## Teksti
 Analytiikan hyödyntäminen projektissa.
 
-[Linkki sovellukseen >>](vko5.html)
+[Linkki sovellukseen >>](vko5/index.html)
