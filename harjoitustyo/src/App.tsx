@@ -9,7 +9,7 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/pilvipalvelut/harjoitustyo">
       <div className="App">
         <Header />
         <Routes>
