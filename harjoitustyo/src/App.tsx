@@ -17,7 +17,6 @@ function App() {
         <Route path="/tapahtumat" element={<Tapahtumat />} />
         <Route path="/omat-tapahtumat" element={<OmatTapahtumat />} />
         <Route path="/koirat" element={<Koirat />} />
-        <Route path="/index.html" element={<Navigate to="/kirjaudu" replace />} />
         <Route path="/" element={<Navigate to="/kirjaudu" replace />} />
         <Route path="*" element={<Navigate to="/kirjaudu" replace />} />
       </Routes>
