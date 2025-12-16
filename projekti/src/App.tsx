@@ -5,6 +5,7 @@ import Etusivu from "./sivut/Etusivu";
 import Tapahtumat from "./sivut/Tapahtumat";
 import OmatTapahtumat from "./sivut/OmatTapahtumat";
 import Koirat from "./sivut/Koirat";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/koirat" element={<Koirat />} />
         <Route path="*" element={<Navigate to="/kirjaudu" replace />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

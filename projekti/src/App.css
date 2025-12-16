@@ -391,6 +391,31 @@ h1 {
   z-index: 1000;
 }
 
+.app-footer {
+  margin-top: 20px;
+  border-top: 1px solid #cbd5e1;
+  background: #ffffff;
+  padding: 20px 0px 12px 0px;
+}
+
+.app-footer a {
+  color: #08526d;
+  cursor: default;
+}
+
+.app-footer a:hover {
+  color: #138c9f;
+  cursor: default;
+}
+
+.footer-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 13px;
+  color: #475569;
+}
+
 .nav {
   max-width: 1280px;
   margin: 0 auto;
