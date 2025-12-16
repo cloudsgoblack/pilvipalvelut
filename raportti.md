@@ -23,8 +23,11 @@ Testasin sivuston sivujen saavutettavuutta Chromen DevToolsin Lighthousella. Sek
 Koetin määritellä CSS-koodiin skaalautuvuuksia eri resoluutioille, eikä grideistä tai navigaatiosta vieläkään tullut aivan täydellistä. Tietyssä leveydessä desktopilla kortit asettuvat vielä vähän päällekäin ennen ns. rivinvaihtoa pienempään määrään. Siitä kuva alla.
 
 <p align="center">
-  <img src="skaalautuvuus1.png" alt="Kuvakaappaus korteista, jotka skaalautuvat selaimessa toistensa päälle." width="200"><br>
+  <img src="skaalautuvuus1.png" alt="Kuvakaappaus korteista, jotka skaalautuvat selaimessa toistensa päälle." width="400"><br>
   <em>Kuva 1. Hassusti päällekäin menevät kortit</em>
+
+  <img src="skaalautuvuus3.png" alt="Kuvakaappaus täyslevyisestä selaimesta ja toimivista korteista." width="400"><br>
+  <em>Kuva 2. Koko näytön kokoinen selainikkuna ja toimivat kortit.</em>
 </p>
 
 Testasin sivustoa kahdella eri mobiililaitteella (Apple ja Google), kannettavalla tietokoneella ja pöytäkoneella. Kaikilla laitteilla sivusto oli käytettävissä ja toiminnallisuudet toimivat moitteetta. Tietokoneiden näytöillä verkkosivusto skaalautuu selaimen ikkunan mukaisesti. 
