@@ -17,20 +17,38 @@ Sivusto on rakenteeltaan yksinkertainen ja perinteinen: navigaatiopalkki on ylä
 Sisäänkirjautuessa sovellus ohjeistaa täyttämään sähköpostikentän sähköpostiosoitteella ja ilmoittaa, mikäli kirjautumistiedot ovat väärät. Sovellus ilmoittaa, mikäli jonkin toiminnon lataaminen (koirien, näyttelyiden tai omien tapahtumien haku) ei onnistu. Tyhjää lomaketta ei voi lähettää, ja sovellus kehottaa käyttäjää täyttämään kentät. Se myös kertoo, jos tapahtuman lisääminen onnistuu ja näyttää reaaliaikaisesti käyttäjän klikkailuilla sen, että lisätty koira ilmestyy kortiksi sivulle tai koiranäyttelykortti tallentuu. 
 
 ## Saavutettavuus
-Testasin sivuston sivujen saavutettavuutta Chromen DevToolsin Lighthousella. Sekä tietokoneella että mobiilissa tulokset olivat hyviä. Tehokkuus ja esteettömyys jokaisella sivulla oli 95-100. Noottia tuli käytäntöpuolelta siitä, että sivusto käyttää kolmannen osapuolen evästeitä, ongelmia kirjautuu DevToolsiin ja JavaScript-kirjastosta puuttuu lähdekarttoja. Sivustoa ei myöskään ole hakukoneohjelmoitu sisällönkuvauksen osalta. 
+Testasin sivuston sivujen saavutettavuutta Chromen DevToolsin Lighthousella. Sekä tietokoneella että mobiilissa tulokset olivat hyviä. Esteettömyys jokaisella sivulla oli 95-100. Noottia tuli käytäntöpuolelta siitä, että sivusto käyttää kolmannen osapuolen evästeitä, ongelmia kirjautuu DevToolsiin ja JavaScript-kirjastosta puuttuu lähdekarttoja. Sivustoa ei myöskään ole hakukoneohjelmoitu sisällönkuvauksen osalta. 
 
 ## Responsiivisuus
 Koetin määritellä CSS-koodiin skaalautuvuuksia eri resoluutioille, eikä grideistä tai navigaatiosta vieläkään tullut aivan täydellistä. Tietyssä leveydessä desktopilla kortit asettuvat vielä vähän päällekäin ennen ns. rivinvaihtoa pienempään määrään. Siitä kuva alla.
 
-  <img src="skaalautuvuus1.png" alt="Kuvakaappaus korteista, jotka skaalautuvat selaimessa toistensa päälle." width="400"><br>
-  <em>Kuva 1. Hassusti päällekäin menevät kortit</em> <img src="skaalautuvuus3.png" alt="Kuvakaappaus täyslevyisestä selaimesta ja toimivista korteista." width="400"><br>
-  <em>Kuva 2. Koko näytön kokoinen selainikkuna ja toimivat kortit.</em>
+  <p align="center">
+  <img src="skaalautuvuus1.png"
+       alt="Kuvakaappaus korteista, jotka skaalautuvat selaimessa toistensa päälle."
+       width="400">
+
+  <img src="skaalautuvuus3.png"
+       alt="Kuvakaappaus täyslevyisestä selaimesta ja toimivista korteista."
+       width="400">
+</p>
+
+<p align="center">
+  <em>Kuva 1–2. Korttien käyttäytyminen eri selainleveyksillä.</em>
+</p>
 
 Mobiililaitteella ja kavennetulla selainikkunalla navigaatiopalkki menee kasaan siten, että käyttäjänimi ja uloskirjautumisnappi skaalautuvat rumasti navigaatiolinkkien alle. Ratkaisu tähän voisi olla avautuva ja sulkeutuva hampurilaisvalikko.
 
-  <img src="skaalautuvuus2.png" alt="Kuvakaappaus kapeasta selaimesta, jossa kortit asettuvat allekain yhteen riviin." width="300"><br>
-  <em>Kuva 3. Kapea selainikkuna ja yhteen riviin asettuvat kortit.</em> <img src="mobiili.png" alt="Mobiilinäkymä, missä näkyy navigaatiopalkin kauneusvirhe." width="300"><br>
-  <em>Kuva 4. Mobiilinäkymä, jossa navigaatiopalkki vähän tönkkö.</em>
+  <p align="center">
+  <img src="skaalautuvuus2.png" width="300"
+       alt="Kapea selainikkuna ja yhteen riviin asettuvat kortit.">
+
+  <img src="mobiili.png" width="300"
+       alt="Mobiilinäkymä, jossa navigaatiopalkki on hieman hölmö.">
+</p>
+
+<p align="center">
+  <em>Kuva 3–4. Mobiili- ja kapean selainikkunan näkymät.</em>
+</p>
 
   Testasin sivustoa kahdella eri mobiililaitteella (Apple ja Google), kannettavalla tietokoneella ja pöytäkoneella. Kaikilla laitteilla sivusto oli käytettävissä ja toiminnallisuudet toimivat moitteetta. Tietokoneiden näytöillä verkkosivusto skaalautuu selaimen ikkunan mukaisesti. 
 
@@ -38,6 +56,19 @@ Mobiililaitteella ja kavennetulla selainikkunalla navigaatiopalkki menee kasaan 
 Testasin sivustoa uusimmilla versioilla Chromesta, Firefoxista ja Microsoft Edgestä. Mobiilitestauksissa käytössä oli Safari sekä Chrome. Sovellus toimi kaikilla selaimilla edellä kuvatun mukaisesti.
 
 ## Latautumisaika
+Latautumisaikaa testasin PageSpeed Insightsin avulla. Tietokoneversion latautuvuus oli jokaisella sivulla näillä testauksilla maksimi, mutta mobiiliversion latautumisnopeus oli toisinaan heikompi (jopa vain 72/100).
+
+<p align="center">
+  <img src="teho1.png" width="300"
+       alt="Täydet pisteet tietokoneen latautumisajasta.">
+
+  <img src="teho2.png" width="300"
+       alt="Huonompi latausaika mobiiliversiossa.">
+</p>
+
+<p align="center">
+  <em>Kuva 5-6. PageSpeed Insights -rapotit tietokone- ja mobiiliversioista.</em>
+</p>
 
 ## Toteuttajan kommervenkkejä
 RESTinä käyttämäni Jalostusnetti ei sellaisenaan jonkin suojauksen takia toiminut suoraan sovelluksessa, vaan loin sille proxyn Cloudware.comiin.  Jalostusnetti on myös hieman mystinen päivittymisiltään, ja saattaakin olla vain jokin harrastelijaprojekti, sillä siellä on hyvin satunnaisesti tietoutta koirista, koiranäyttelyistä ja niiden oheisista. Sovellukseni listaus näyttää Jalostusnetin näyttelytietokannan rajaamattomana, eikä siellä esimerkiksi ole yhtään vuoden 2026 tulevaa näyttelyä. Listalla on satunnaisia näyttelyjä vuosi kerrallaan.
