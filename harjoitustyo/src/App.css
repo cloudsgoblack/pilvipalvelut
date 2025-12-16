@@ -2,6 +2,10 @@
   min-height: 100vh;
 }
 
+:root {
+  --header-height: 80px;
+}
+
 .App {
   min-height: 100vh;
   display: flex;
@@ -316,7 +320,7 @@ h1 {
 }
 
 .app-header {
-  height: var(--header-height);
+  height: var(--header-height, 80px);
   position: fixed;
   top: 0;
   left: 0;
