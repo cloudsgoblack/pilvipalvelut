@@ -9,3 +9,4 @@ Löydät valmiit tehtäväpalautukset navigaatiopalkista tai tästä:
 - [Viikko 3](./vko3/index.html)
 - [Viikko 4](./vko4/)
 - [Viikko 5](vko5_teksti.html)
+- [Harjoitustyö] (raportti.html)
