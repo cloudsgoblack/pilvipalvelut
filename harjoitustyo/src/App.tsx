@@ -12,13 +12,13 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/kirjaudu" element={<Kirjaudu />} />
-        <Route path="/etusivu" element={<Etusivu />} />
-        <Route path="/tapahtumat" element={<Tapahtumat />} />
-        <Route path="/omat-tapahtumat" element={<OmatTapahtumat />} />
-        <Route path="/koirat" element={<Koirat />} />
-        <Route path="/" element={<Navigate to="/kirjaudu" replace />} />
-        <Route path="*" element={<Navigate to="/kirjaudu" replace />} />
+        <Route index element={<Navigate to="kirjaudu" replace />} />
+        <Route path="kirjaudu" element={<Kirjaudu />} />
+        <Route path="etusivu" element={<Etusivu />} />
+        <Route path="tapahtumat" element={<Tapahtumat />} />
+        <Route path="omat-tapahtumat" element={<OmatTapahtumat />} />
+        <Route path="koirat" element={<Koirat />} />
+        <Route path="*" element={<Navigate to="kirjaudu" replace />} />
       </Routes>
     </div>
   );
