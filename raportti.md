@@ -1,7 +1,7 @@
 
 ### Harjoitustyö
 ## Sovellus
-[Linkki sovellukseen >>](projekti/index.html)
+[Linkki sovellukseen >>](https://resonant-elf-39b80c.netlify.app/)
 
 ## Harjoitustyön idea
 Idea syntyi omasta koiraharrastuksesta, josta on opintojen mittaan tullut ammennettua muitakin projektiaiheita. Kohderyhmänä ovat aktiiviset koiraharrastajat, jotka haluavat jonkin selkeän ja helppokäyttöisen sivuston tulevien koiratapahtumien listaukseen.
