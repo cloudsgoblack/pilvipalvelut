@@ -47,16 +47,18 @@ h1 {
 
 .koirat-form {
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 15px;
+  align-items: stretch;
 }
 
 .koirat-form .form-input,
 .koirat-form .login-button {
   width: 100%;
+  box-sizing: border-box;
 }
 
 .login-form {
@@ -81,7 +83,7 @@ h1 {
   font-size: 16px;
   border-radius: 8px;
   width: 100%;
-  max-width: 420px;
+  max-width: 500px;
   box-sizing: border-box;
   border: 1px solid #cbd5e1;
   outline: none;
