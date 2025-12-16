@@ -24,11 +24,11 @@ footer-hover-col: "#08526d"
 # NAVIGAATIO
 navbar-links:
   Etusivu: /
-  "Viikko 1": /vko1.html
-  "Viikko 2": /vko2.html
-  "Viikko 3": ./vko3/index.html
-  "Viikko 4": ./vko4/
-  "Viikko 5": ./vko5_teksti.html
+  "VKO 1": /vko1.html
+  "VKO 2": /vko2.html
+  "VKO 3": ./vko3/index.html
+  "VKO 4": ./vko4/
+  "VKO 5": ./vko5_teksti.html
   "Harjoitustyö": /raportti.html
 
 navbar-fixed: true
