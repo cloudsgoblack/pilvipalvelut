@@ -201,12 +201,13 @@ export default function Tapahtumat() {
 
             {items && (
                 <section className="cards-grid" aria-label="Näyttelyt">
-                    {items.map((it, idx) => {
-                        const eventId = String(it?.id ?? it?.eventId ?? it?._id ?? idx);
-                        const isSaved = savedIds.has(eventId);
+                    {items.slice(0, 20).map((it, idx) => {
+                        const eventId = String(it?.id ?? it?.eventId ?? it?._id ?? "");
+                        const key = eventId || `idx-${idx}`;
+                        const isSaved = eventId ? savedIds.has(eventId) : false;
 
                         return (
-                            <article className="event-card" key={eventId}>
+                            <article className="event-card" key={key}>
                                 <h2 className="event-title">{pickTitle(it)}</h2>
 
                                 <div className="event-meta">

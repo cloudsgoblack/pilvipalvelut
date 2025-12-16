@@ -12,8 +12,8 @@
 
 main {
   padding-top: 100px;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 10px;
+  padding-right: 10px;
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
@@ -166,8 +166,8 @@ h1 {
   width: 100%;
   display: grid;
   justify-items: center;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 60px;
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
 }
 
 @media (max-width: 1100px) {
@@ -185,12 +185,13 @@ h1 {
 .event-card {
   background: #ffffff;
   border: 1px solid #cbd5e1;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   border-radius: 16px;
   padding: 1rem;
   text-align: center;
   box-shadow: 0 3px 7px #cbd5e1;
-  margin: 0.5rem;
+  margin: 0;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -263,7 +264,7 @@ h1 {
 .saved-events-grid {
   display: grid;
   justify-items: center;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
 }
 
