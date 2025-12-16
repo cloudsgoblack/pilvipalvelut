@@ -25,11 +25,11 @@ Koetin määritellä CSS-koodiin skaalautuvuuksia eri resoluutioille, eikä grid
   <p align="center">
   <img src="skaalautuvuus1.png"
        alt="Kuvakaappaus korteista, jotka skaalautuvat selaimessa toistensa päälle."
-       width="400">
+       width="330">
 
   <img src="skaalautuvuus3.png"
        alt="Kuvakaappaus täyslevyisestä selaimesta ja toimivista korteista."
-       width="400">
+       width="330">
 </p>
 
 <p align="center">
@@ -39,10 +39,10 @@ Koetin määritellä CSS-koodiin skaalautuvuuksia eri resoluutioille, eikä grid
 Mobiililaitteella ja kavennetulla selainikkunalla navigaatiopalkki menee kasaan siten, että käyttäjänimi ja uloskirjautumisnappi skaalautuvat rumasti navigaatiolinkkien alle. Ratkaisu tähän voisi olla avautuva ja sulkeutuva hampurilaisvalikko.
 
   <p align="center">
-  <img src="skaalautuvuus2.png" width="300"
+  <img src="skaalautuvuus2.png" height="500"
        alt="Kapea selainikkuna ja yhteen riviin asettuvat kortit.">
 
-  <img src="mobiili.png" width="300"
+  <img src="mobiili.png" height="500"
        alt="Mobiilinäkymä, jossa navigaatiopalkki on hieman hölmö.">
 </p>
 
@@ -59,10 +59,10 @@ Testasin sivustoa uusimmilla versioilla Chromesta, Firefoxista ja Microsoft Edge
 Latautumisaikaa testasin PageSpeed Insightsin avulla. Tietokoneversion latautuvuus oli jokaisella sivulla näillä testauksilla maksimi, mutta mobiiliversion latautumisnopeus oli toisinaan heikompi (jopa vain 72/100).
 
 <p align="center">
-  <img src="teho1.png" width="300"
+  <img src="teho1.png" width="330"
        alt="Täydet pisteet tietokoneen latautumisajasta.">
 
-  <img src="teho2.png" width="300"
+  <img src="teho2.png" width="330"
        alt="Huonompi latausaika mobiiliversiossa.">
 </p>
 
