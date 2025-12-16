@@ -23,12 +23,16 @@ Testasin sivuston sivujen saavutettavuutta Chromen DevToolsin Lighthousella. Sek
 Koetin määritellä CSS-koodiin skaalautuvuuksia eri resoluutioille, eikä grideistä tai navigaatiosta vieläkään tullut aivan täydellistä. Tietyssä leveydessä desktopilla kortit asettuvat vielä vähän päällekäin ennen ns. rivinvaihtoa pienempään määrään. Siitä kuva alla.
 
   <img src="skaalautuvuus1.png" alt="Kuvakaappaus korteista, jotka skaalautuvat selaimessa toistensa päälle." width="400"><br>
-  <em>Kuva 1. Hassusti päällekäin menevät kortit</em>
-
-  <img src="skaalautuvuus3.png" alt="Kuvakaappaus täyslevyisestä selaimesta ja toimivista korteista." width="400"><br>
+  <em>Kuva 1. Hassusti päällekäin menevät kortit</em> <img src="skaalautuvuus3.png" alt="Kuvakaappaus täyslevyisestä selaimesta ja toimivista korteista." width="400"><br>
   <em>Kuva 2. Koko näytön kokoinen selainikkuna ja toimivat kortit.</em>
 
-Testasin sivustoa kahdella eri mobiililaitteella (Apple ja Google), kannettavalla tietokoneella ja pöytäkoneella. Kaikilla laitteilla sivusto oli käytettävissä ja toiminnallisuudet toimivat moitteetta. Tietokoneiden näytöillä verkkosivusto skaalautuu selaimen ikkunan mukaisesti. 
+Mobiililaitteella ja kavennetulla selainikkunalla navigaatiopalkki menee kasaan siten, että käyttäjänimi ja uloskirjautumisnappi skaalautuvat rumasti navigaatiolinkkien alle. Ratkaisu tähän voisi olla avautuva ja sulkeutuva hampurilaisvalikko.
+
+  <img src="skaalautuvuus2.png" alt="Kuvakaappaus kapeasta selaimesta, jossa kortit asettuvat allekain yhteen riviin." width="300"><br>
+  <em>Kuva 3. Kapea selainikkuna ja yhteen riviin asettuvat kortit.</em> <img src="mobiili.png" alt="Mobiilinäkymä, missä näkyy navigaatiopalkin kauneusvirhe." width="300"><br>
+  <em>Kuva 4. Mobiilinäkymä, jossa navigaatiopalkki vähän tönkkö.</em>
+
+  Testasin sivustoa kahdella eri mobiililaitteella (Apple ja Google), kannettavalla tietokoneella ja pöytäkoneella. Kaikilla laitteilla sivusto oli käytettävissä ja toiminnallisuudet toimivat moitteetta. Tietokoneiden näytöillä verkkosivusto skaalautuu selaimen ikkunan mukaisesti. 
 
 ## Testatut selaimet
 Testasin sivustoa uusimmilla versioilla Chromesta, Firefoxista ja Microsoft Edgestä. Mobiilitestauksissa käytössä oli Safari sekä Chrome. Sovellus toimi kaikilla selaimilla edellä kuvatun mukaisesti.
