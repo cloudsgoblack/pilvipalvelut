@@ -30,7 +30,7 @@ export default function Etusivu() {
                     </p>
 
                     <br></br><a
-                        href="https://cloudsgoblack.github.io/pilvipalvelut/harjoitustyo"
+                        href="https://cloudsgoblack.github.io/pilvipalvelut/raportti"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="login-button"
